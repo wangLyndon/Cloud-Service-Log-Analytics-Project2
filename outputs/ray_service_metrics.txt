@@ -1,0 +1,6 @@
+service_name,total_requests,slow_requests,slow_rate,server_errors,server_error_rate,timeout_errors
+auth-service,12121,545,0.0450,436,0.0360,199
+notification-service,8412,566,0.0673,436,0.0518,164
+order-service,10937,1151,0.1052,717,0.0656,308
+payment-service,7914,2134,0.2696,1362,0.1721,664
+search-service,10616,4581,0.4315,904,0.0852,446

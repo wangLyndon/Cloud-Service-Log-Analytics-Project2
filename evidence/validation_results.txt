@@ -1,0 +1,11 @@
+Validation results
+
+Check: Python independent counts vs Hadoop request counts vs Ray total_requests
+
+auth-service: python=12121, hadoop=12121, ray=12121, match=True
+notification-service: python=8412, hadoop=8412, ray=8412, match=True
+order-service: python=10937, hadoop=10937, ray=10937, match=True
+payment-service: python=7914, hadoop=7914, ray=7914, match=True
+search-service: python=10616, hadoop=10616, ray=10616, match=True
+
+Overall validation passed: True

@@ -1,0 +1,18 @@
+Ray degraded-service detection evidence
+
+Runtime seconds: 3.2672
+Python version: 3.9.25
+Platform: Linux-6.18.25-55.108.amzn2023.x86_64-x86_64-with-glibc2.34
+Ray version: 2.51.2
+Ray mode: local mode on AWS EC2
+Input file: data/cloud_service_logs.csv
+Chunk size: 5000
+Number of chunks: 10
+Number of Ray remote tasks: 10
+Ray available resources: {'memory': 299499111.0, 'node:172.31.17.127': 1.0, 'object_store_memory': 124377035.0, 'node:__internal_head__': 1.0}
+
+Degraded service output file:
+outputs/ray_degraded_services.txt
+
+Detailed service metrics file:
+outputs/ray_service_metrics.txt

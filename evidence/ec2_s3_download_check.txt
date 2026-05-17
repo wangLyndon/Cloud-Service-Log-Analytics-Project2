@@ -1,1 +1,7 @@
+S3 download check on EC2
+Source: s3://<anonymised-bucket>/input/cloud_service_logs.csv
+Target: data/cloud_service_logs.csv
 
+-rw-r--r--. 1 ec2-user ec2-user 4.3M May 12 10:43 data/cloud_service_logs.csv
+
+50001 data/cloud_service_logs.csv
